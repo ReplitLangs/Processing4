@@ -1,0 +1,9 @@
+run = "./processing4/processing-java --sketch=main --run"
+
+entrypoint="main/main.pde"
+
+[packager]
+language = "java"
+
+[packager.features]
+packageSearch = false
